@@ -1,10 +1,21 @@
 ## From here
 
+!pip install tensorflow==1.15.5
+!pip install opencv-python==3.4.2.17
+!pip install librosa==0.6.0
+!pip install numba==0.48
+!pip install -qU t5
 
+!git clone https://github.com/eeskimez/Talking-Face-Landmarks-from-Speech
 
+%cd Talking-Face-Landmarks-from-Speech
 
+!mkdir generated_feature
 
+copy and paste Translate.hdf5 and TranslateV.hdf5 to generated_feature
+folder
 
+!python train.py -i generated_feature/Translate.hdf5 -ii generated_feature/TranslateV.hdf5  -u 4 -d 40 -c 5 -o Generated_ModelT/
 
 
 
