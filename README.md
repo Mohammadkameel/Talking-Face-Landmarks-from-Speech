@@ -17,7 +17,7 @@ folder
 
 !python trainTranslation.py -i generated_feature/Translate.hdf5 -ii generated_feature/TranslateV.hdf5  -u 4 -d 40 -c 5 -o Generated_ModelT/
 
-copy the generated talkingFaceModel.h5 from Generated_ModelT/_4/train to models folder and rename it to talkingFaceModelT.h5
+copy the generated talkingFaceModelT.h5 from Generated_ModelT/_4/train to models folder
 
 !python generateTranslation.py -i test_samples/test2.flac -m models/talkingFaceModelT.h5 -d 40 -c 5 -o results/D40_C3_test1
 
@@ -26,6 +26,10 @@ copy and paste Range.hdf5 and Range.hdf5 to generated_feature folder
 
 
 !python trainRange.py -i generated_feature/Range.hdf5 -ii generated_feature/RangeV.hdf5 -u 4 -d 40 -c 5 -o Generated_ModelR/
+
+copy the generated talkingFaceModelR.h5 from Generated_ModelT/_4/train to models folder
+
+!python generateRange.py -i test_samples/test2.flac -m models/talkingFaceModelR.h5 -d 40 -c 5 -o results/D40_C3_test1
 
 
 
