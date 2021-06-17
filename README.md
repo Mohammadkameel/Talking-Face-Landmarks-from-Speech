@@ -15,7 +15,7 @@
 copy and paste Translate.hdf5 and TranslateV.hdf5 to generated_feature
 folder
 
-!python train.py -i generated_feature/Translate.hdf5 -ii generated_feature/TranslateV.hdf5  -u 4 -d 40 -c 5 -o Generated_ModelT/
+!python trainTranslation.py -i generated_feature/Translate.hdf5 -ii generated_feature/TranslateV.hdf5  -u 4 -d 40 -c 5 -o Generated_ModelT/
 
 
 
