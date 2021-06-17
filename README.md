@@ -6,7 +6,7 @@
 !pip install numba==0.48
 !pip install -qU t5
 
-!git clone https://github.com/eeskimez/Talking-Face-Landmarks-from-Speech
+!git clone https://github.com/Mohammadkameel/Talking-Face-Landmarks-from-Speech.git
 
 %cd Talking-Face-Landmarks-from-Speech
 
