@@ -1,4 +1,4 @@
-## Instalations
+## Installations
 
 ```
 !pip install tensorflow==1.15.5
