@@ -15,7 +15,7 @@
 !mkdir generated_feature
 ```
 
-* In this step you should copy and paste Translate.hdf5, TranslateV.hdf5, Range.hdf5 and Range.hdf5 to generated_feature folder.
+* In this step you should copy and paste Translate.hdf5, TranslateV.hdf5, Range.hdf5 and RangeV.hdf5 to generated_feature folder.
 
 ## Training phase (translation part)
 
