@@ -18,6 +18,10 @@ folder
 !python trainTranslation.py -i generated_feature/Translate.hdf5 -ii generated_feature/TranslateV.hdf5  -u 4 -d 40 -c 5 -o Generated_ModelT/
 
 
+!python generateTranslation.py -i test_samples/test2.flac -m models/talkingFaceModelR.h5 -d 40 -c 5 -o results/D40_C3_test1
+
+
+
 
 
 
