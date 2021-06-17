@@ -220,4 +220,4 @@ for epoch in tqdm(range(numEpochs)):
         print("Here is validation loss" + str(logs2[0]))
 
 
-    model.save(output_path+'talkingFaceModel.h5')
+    model.save(output_path+'talkingFaceModelT.h5')
