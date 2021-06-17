@@ -27,7 +27,7 @@ copy and paste Range.hdf5 and Range.hdf5 to generated_feature folder
 
 !python trainRange.py -i generated_feature/Range.hdf5 -ii generated_feature/RangeV.hdf5 -u 4 -d 40 -c 5 -o Generated_ModelR/
 
-copy the generated talkingFaceModelR.h5 from Generated_ModelT/_4/train to models folder
+copy the generated talkingFaceModelR.h5 from Generated_ModelR/_4/train to models folder
 
 !python generateRange.py -i test_samples/test2.flac -m models/talkingFaceModelR.h5 -d 40 -c 5 -o results/D40_C3_test1
 
