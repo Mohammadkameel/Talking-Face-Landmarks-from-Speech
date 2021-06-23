@@ -23,6 +23,12 @@
 !python trainTranslation.py -i generated_feature/Translate.hdf5 -ii generated_feature/TranslateV.hdf5  -u 4 -d 40 -c 5 -o Generated_ModelT/
 ```
 
+## Training phase _ pretrained model (translation part)
+
+```
+!python trainTranslation_pretrained.py -i generated_feature/Translate.hdf5 -ii generated_feature/TranslateV.hdf5  -u 4 -d 40 -c 5 -o Generated_ModelT/
+```
+
 * In this step you should copy the generated talkingFaceModelT.h5 from Generated_ModelT/_4/train to models folder.
 
 ## Generate control rigs displacements for sample audio (translation part)
@@ -36,6 +42,13 @@
 ```
 !python trainRange.py -i generated_feature/Range.hdf5 -ii generated_feature/RangeV.hdf5 -u 4 -d 40 -c 5 -o Generated_ModelR/
 ```
+
+## Training phase _ pretrained model (range part)
+
+```
+!python trainRange_pretrained.py -i generated_feature/Range.hdf5 -ii generated_feature/RangeV.hdf5 -u 4 -d 40 -c 5 -o Generated_ModelR/
+```
+
 
 * In this step you should copy the generated talkingFaceModelR.h5 from Generated_ModelR/_4/train to models folder
 
