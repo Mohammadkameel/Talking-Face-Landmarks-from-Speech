@@ -25,6 +25,8 @@
 
 ## Training phase _ pretrained model (translation part)
 
+you must download D40_C5.h5 model from [here](https://github.com/eeskimez/Talking-Face-Landmarks-from-Speech) and put it in the model folder.
+
 ```
 !python trainTranslation_pretrained.py -i generated_feature/Translate.hdf5 -ii generated_feature/TranslateV.hdf5  -u 4 -d 40 -c 5 -o Generated_ModelT/
 ```
